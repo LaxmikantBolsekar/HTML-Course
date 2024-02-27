@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML COURSE</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+  <body>
+    <nav id="sidebar">
+      <h2>HTML</h2>
+      <ul>
+        <li><a class="nav-item" href="#Introduction">Introduction</a></li>
+        <li>
+          <a class="nav-item" href="#html_editors">HTML Editors</a>
+        </li>
+        <li>
+          <a class="nav-item" href="#html_elements">HTML Elements</a>
+        </li>
+        <li><a class="nav-item" href="#html_attributes">HTML Attributes</a></li>
+        <li><a class="nav-item" href="#html_heading">HTML Heading</a></li>
+        <li>
+          <a class="nav-item" href="#html_paragraph">HTML Paragraph</a>
+        </li>
+        <li><a class="nav-item" href="#html_style">HTML Style</a></li>
+        <li><a class="nav-item" href="#html_formatting">HTML Formatting</a></li>
+        <li><a class="nav-item" href="#reference">Reference</a></li>
+      </ul>
+    </nav>
+    <main id="documentation">
+      <section id="Introduction">
+        <h2>Introduction</h2>
+        <article>
+          <p>
+            HTML is the standard markup language for creating Web pages.
+            <br>
+            <h3>What is HTML?</h3>
+            -HTML stands for <b>Hyper Text Markup Language</b>
+            <br>-HTML is the standard markup language for creating Web pages
+            <br>-HTML describes the structure of a Web page
+            <br>-HTML consists of a series of elements
+            <br>-HTML elements tell the browser how to display the content
+            <br>-HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.
+          </p>
+          <h3>HTML Document</h3>
+          <pre>
+  &lt;!DOCTYPE html&gt;
+                  &lt;html&gt;
+                  &lt;head&gt;
+                  &lt;title&gt;Page Title&lt;/title&gt;
+                  &lt;/head&gt;
+                  &lt;body&gt;
+  
+                  &lt;h1&gt;This is a Heading&lt;/h1&gt;
+                  &lt;p&gt;This is a paragraph.&lt;/p&gt;
+  
+                  &lt;/body&gt;
+                  &lt;/html&gt;</pre>
+        </article>
+      </section>
+      <section id="html_editors">
+        <h2>HTML Editors</h2>
+        <article>
+          <p>
+            Learn HTML Using Notepad or TextEdit.
+            Web pages can be created and modified by using professional HTML editors.
+            However, for learning HTML we recommend a simple text editor like Notepad (PC) or TextEdit (Mac).
+            We believe that using a simple text editor is a good way to learn HTML.
+            Follow the steps below to create your first web page with Notepad or TextEdit.
+          <p>Here is the list of top 4 HTML text editors you can pick:</p>
+  
+          <ul>
+            <li>Sublime Text Editor</li>
+            <li>Notepad++</li>
+            <li>Visual Studio Code</li>
+            <li>Atom</li>
+          </ul>
+        </article>
+      </section>
+      <section id="html_elements">
+        <h2>HTML Elements</h2>
+        <article>
+          <p>
+            An HTML (HyperText Markup Language) element is a fundamental building block used to describe the structure of web pages. HTML elements are defined by tags, which are enclosed in angle brackets < >. These tags usually come in pairs: an opening tag and a closing tag, with content nested between them. For
+              example:
+          </p>
+          <pre>&lt;p class="hello"&gt; Hello World &lt;/p&gt;</pre>
+        </article>
+      </section>
+      <section id="html_attributes">
+        <h2>HTML Attributes</h2>
+        <article>
+          <p>
+            An HTML attribute is a special characteristic or additional piece of information that can be added to an HTML element. Attributes are used to modify the behavior or provide extra details about an element, and they are always placed within the opening tag of the element. Attributes are written as name-value pairs, where the name of the attribute is followed by an equals sign = and a value enclosed in quotes.
+            <strong> Example </strong>
+          </p>
+          <pre>&lt;image src="Apple.jpg" alt="Apple image"&gt;</pre>
+          <p>
+            In this example src ="Apple.jpg" and alt="Apple image" are two
+            attributes where src and alt are attributes name and "Apple.jpg" and
+            "Apple image" are attributes values. Here alt attribute is optional,
+            but src is mandatory because src specify which image to show. There
+            should be at least one space gap between two attributes, and the
+            value of the attributes must have resided in the double inverted
+            comma. Some most important HTML
+          </p>
+        </article>
+      </section>
+      <section id="html_heading">
+        <h2>HTML Heading</h2>
+        <p>
+          HTML headings are defined with the &lt;h1&gt; to &lt;h6&gt; tags.
+            &lt;h1&gt; defines the most important heading. &lt;h6&gt; defines the least important heading.
+              Search engines use the headings to index the structure and content of your web pages.
+            Users often skim a page by its headings. It is important to use headings to show the document structure.
+            &lt;h1&gt; headings should be used for main headings, followed by &lt;h2&gt; headings, then the less important &lt;h2&gt;, and so on.
+            <br>
+            Note: Use HTML headings for headings only. Don't use headings to make text BIG or bold.
+          <strong> Example </strong>
+        </p>
+        <pre>
+              &lt;h1&gt; Heading 1 &lt;/h1&gt;
+              &lt;h2&gt; Heading 2 &lt;/h2&gt;
+              &lt;h3&gt; Heading 3 &lt;/h3&gt;
+              &lt;h4&gt; Heading 4 &lt;/h4&gt;
+              &lt;h5&gt; Heading 5 &lt;/h5&gt;
+              &lt;h6&gt; Heading 6 &lt;/h6&gt;</pre>
+      </section>
+      <section id="html_paragraph">
+        <h2>HTML Paragraph</h2>
+        <article>
+          <p>
+            The HTML &lt;p&gt; element defines a paragraph.
+             <br>
+              A paragraph always starts on a new line, and browsers automatically add some white space (a margin) before and after a paragraph.
+          </p>
+          <pre>
+                  &lt;p&gt; This is paragraph &lt;/p&gt;
+                  &lt;p&gt; This is another paragraph &lt;/p&gt;</pre>
+        </article>
+      </section>
+      <section id="html_style">
+        <h2>HTML Style</h2>
+        <article>
+          <p>
+            The HTML style attribute is used to add styles to an element, such as color, font, size, and more.
+          </p>
+          <pre>&lt;body style="background-color:yellow;"&gt;
+  
+                  &lt;h1&gt;Hello World&lt;/h1&gt;
+                  &lt;p&gt;Welcome to World&lt;/p&gt;
+                  
+                  &lt;/body&gt;</pre>
+        </article>
+      </section>
+      <section id="html_formatting">
+        <h2>HTML Formatting</h2>
+        <article>
+          <p>
+            HTML contains several elements for defining text with a special meaning.
+          </p>
+          <div class="hscroll">
+            <table>
+              <tbody>
+                <tr>
+                  <td>
+                    Formatting elements were designed to display special types of text:
+                  </td>
+                  <br>
+                <tr>
+                  <td>
+                    &lt;b&gt;
+                  </td>
+                  <td>
+                    Bold the text
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    &lt;strong&gt;
+                  </td>
+                  <td>
+                    An alternative for &lt;b&gt;, which tell that this text is essential.
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    &lt;i&gt;
+                  </td>
+                  <td>
+                    Italic the text
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    &lt;em&gt;
+                  </td>
+                  <td>
+                    Similar to italic but used when we want to emphasize the text.
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    &lt;mark&gt;
+                  </td>
+                  <td>
+                    It marks the text with a default "yellow" background colour
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    &lt;small&gt;
+                  </td>
+                  <td>
+                    Decrease the text size
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    &lt;del&gt;
+                  </td>
+                  <td>
+                    It prints a cross line over the text.
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    &lt;ins&gt;
+                  </td>
+                  <td>
+                    Represents the inserted text by putting an underline.
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    &lt;sub&gt;
+                  </td>
+                  <td>
+                    This element is used to display the subscript.
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    &lt;sup&gt;
+                  </td>
+                  <td>
+                    It can make a text superscript.
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </article>
+      </section>
+  
+      <section id="reference">
+        <h2>Reference</h2>
+        <article>
+          <ul>
+            <li>
+              All the documentation in this page is taken from
+              <a href="https://www.w3schools.com/html/default.asp" target="_blank">w3schools</a>
+            </li>
+          </ul>
+        </article>
+      </section>
+    </main>
+</body>
+</html>
